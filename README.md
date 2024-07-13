@@ -24,6 +24,7 @@ pip install -r requirements.txt
 
 The dataset used for training and evaluation is available on Kaggle. You can access it from this [link](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio).
 
+<!--
 ## Usage
 
 To train the model, run:
@@ -37,6 +38,7 @@ To evaluate the model, run:
 ```bash
 python evaluate.py
 ```
+-->
 
 ## Results
 
