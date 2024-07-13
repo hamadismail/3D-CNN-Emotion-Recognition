@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ## Dataset
 
-The dataset used for training and evaluation is available on Kaggle. You can download it from this link.
+The dataset used for training and evaluation is available on Kaggle. You can access it from this [link](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio).
 
 ## Usage
 
@@ -42,6 +42,10 @@ python evaluate.py
 
 Our 3D CNN model introduces a novel approach by incorporating three distinct feature extraction techniques—MFCC, chroma shift, and mel-spectrogram—stacked along the Z-axis, forming the third dimension. This approach resulted in improved accuracy for human emotion recognition from speech.
 
+## Kaggle Link
+
+For more details and to access the notebook, visit the [Kaggle notebook](https://www.kaggle.com/code/hamadismail/ravdess-humanemotionrecognition-3d-cnn).
+
 ## Publication
 
 **This work was published at:**
@@ -49,26 +53,26 @@ Our 3D CNN model introduces a novel approach by incorporating three distinct fea
 - 6th International Conference on Communication and Computational Technologies (ICCCT 2024)
 - Rajasthan Institute of Engineering and Technology, Jaipur, India
 
-[comment]:
-[//]:## Citation
+<!--
+## Citation
 
-[//]:If you use this code in your research, please cite our paper:
+If you use this code in your research, please cite our paper:
 
-[//]:```bibtex
-[//]:@inproceedings{your_paper_citation,
-[//]:  title={A 3D CNN Model with Multi-Feature Fusion for Enhancing Human Emotion Recognition from Speech},
-[//]:  author={Your Name and Co-authors},
-[//]:  booktitle={6th International Conference on Communication and Computational Technologies (ICCCT 2024)},
-[//]:  year={2024},
-[//]:  address={Jaipur, India}
-[//]:}
-[//]:```
+```bibtex
+@inproceedings{your_paper_citation,
+  title={A 3D CNN Model with Multi-Feature Fusion for Enhancing Human Emotion Recognition from Speech},
+  author={Your Name and Co-authors},
+  booktitle={6th International Conference on Communication and Computational Technologies (ICCCT 2024)},
+  year={2024},
+  address={Jaipur, India}
+}
+```
 
-[//]:## License
+## License
 
-[//]:This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-[comment]:
+-->
 
 ## Acknowledgments
 
